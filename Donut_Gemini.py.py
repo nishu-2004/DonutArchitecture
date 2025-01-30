@@ -7,7 +7,7 @@ import torch
 import google.generativeai as genai
 
 # Configure Gemini API key
-genai.configure(api_key='AIzaSyC8zbSn0SEq60ZvISkZhdPHJMAKaEAW_B0')
+genai.configure(api_key='YOUR_API_KEY')
 
 def process_image_with_donut(image_path, output_folder, task_prompt, model_name):
     """
